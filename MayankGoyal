@@ -1,3 +1,5 @@
+#Hi! I am a beginner to open source and wanted to participate in the Hacktoberfest. I am totally new, so please excuse and let me know if there are any mistakes. Thank you!
+
 num = int(input("Enter number: "))
 if num > 1:
     for i in range(2, num):
