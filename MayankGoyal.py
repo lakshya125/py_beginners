@@ -1,4 +1,5 @@
 #Hi! I am a beginner to open source and wanted to participate in the Hacktoberfest. I am totally new, so please excuse and let me know if there are any mistakes. Thank you!
+#This code is to check if user input is prime or not
 
 num = int(input("Enter number: "))
 if num > 1:
