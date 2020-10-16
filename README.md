@@ -6,6 +6,7 @@ Basic level python code to do basic things that will help you build your basics
 
 File Name | Description
 ---|---
+[armstrong_number.py](https://github.com/lakshya125/py_beginners/blob/main/armstrong_number) | Checks whether a number is an armstrong number or not 
 [binary_to_decimal.py](https://github.com/LySergicaciD125/py_beginners/blob/main/binary_to_decimal.py) | provides an equivalent decimal output for a given binary number
 [celsius_to_fahrenheit.py](https://github.com/LySergicaciD125/py_beginners/blob/main/celsius_to_fahrenheit.py) | converts given Celsius temperature to Fahrenheit unit
 [decimal_to_binary.py](https://github.com/LySergicaciD125/py_beginners/blob/main/decimal_to_binary.py) | provides an equivalent binary output for a given decimal number
