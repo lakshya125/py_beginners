@@ -29,6 +29,12 @@ def reverse_list(s):
     temp_list.reverse()
     return ''.join(temp_list)
 
+def reverse_recursion(s): 
+    if len(s) == 0: 
+        return s 
+    else: 
+        return reverse(s[1:]) + s[0]
+
 if __name__ == "__main__":
     # Taking inputs from user
     input_str = input("Please input a string: ")
@@ -37,4 +43,6 @@ if __name__ == "__main__":
     print('Reverse String using while loop =', reverse_while_loop(input_str))
     print('Reverse String using join and reversed =', reverse_join_reversed_iter(input_str))
     print('Reverse String using list reverse =', reverse_list(input_str))
+    print("Reverse String using recursion =",reverse_recursion(input_str))
+
 
