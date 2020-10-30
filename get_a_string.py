@@ -12,7 +12,7 @@ gas = int(input("How many gallons of gas did they buy? "))
 
 # This section will take each value and multiply it by the current cost per item
 candytotal  = candy * 1.50
-drinktotal = drinks * 2.50
+drinktotal = drinks * 2.20
 gastotal = gas * 2.12
 subtotal = candytotal + drinktotal + gastotal
 
