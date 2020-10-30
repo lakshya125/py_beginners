@@ -1,4 +1,19 @@
-print("Input the binary number: ")
-binary = input()
-answer = int(input, base=2)
-print("The decimal number is: "+answer)
+def binary_Decimal(n):
+	num = n;
+	dec_value = 0;
+	base = 1;
+	temp = num;
+	while(temp):
+		last_digit = temp % 10;
+		temp = int(temp / 10);
+		dec_value += last_digit * base;
+		base = base * 2;
+	return dec_value;
+
+print("enter binary number")
+num=int(input())
+print("Decimal number")
+print(binary_Decimal(num));
+
+
+
