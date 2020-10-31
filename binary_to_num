@@ -1,0 +1,13 @@
+def binary_to_num(s):
+    lenght = len(s)
+    if s == "":
+        return 0
+    elif (s[0] == '1'):
+        return ((2**(lenght-1))) + binary_to_num(s[1:])
+    elif (s[0] == '0'):
+        return binary_to_num(s[1:])
+assert binary_to_num("100") == 4
+assert binary_to_num("1011") == 11
+assert binary_to_num("00001011") == 11
+assert binary_to_num("") == 0
+assert binary_to_num("0") == 0
