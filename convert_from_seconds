@@ -1,0 +1,14 @@
+def convert_from_seconds(s):
+    days = s // (24 * 60 * 60)
+    s = s % (24 * 60 * 60)
+    hours = s // (60 * 60)
+    s = s % (60 * 60)
+    minutes = s // 60
+    s = s % (60)
+    seconds = s
+    print(days, "days")
+    print(hours, "hours")
+    print(minutes, "minutes")
+    print(seconds, "seconds")
+    return( [days, hours, minutes, seconds])
+assert convert_from_seconds(600) == [0,0,10,0]
