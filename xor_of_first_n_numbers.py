@@ -1,4 +1,4 @@
-# Program to find xor of first n numbers
+# Program to find xor of first n natural numbers
 
 # Taking input
 n = int(input())
