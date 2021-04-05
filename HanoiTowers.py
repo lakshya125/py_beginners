@@ -1,5 +1,7 @@
 
-'''The Tower of Hanoi is a mathematical game or puzzle. It consists of three rods and a number of disks of different sizes, which can slide onto any rod.
+'''The Tower of Hanoi is a mathematical game or puzzle.
+ It consists of three rods and a number of disks of different sizes,
+ which can slide onto any rod.
 This is a recursive implementation of this problem in Python.
 '''
 
