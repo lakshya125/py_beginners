@@ -1,0 +1,8 @@
+from tensorflow.keras.callbacks import Tensorboard
+
+name = "model.{}".format(int(time.time()))
+
+
+tb = Tensorboard(log_dir='logs/{}'.format(name))
+
+callbacks=[tb]
